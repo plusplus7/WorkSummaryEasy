@@ -25,7 +25,7 @@
     {
         "EventList" : {
             "Star"     : 1,
-            "Format"   : "$EventScript$$asdf$",
+            "Format"   : "$EventScript$",
             "IsPlural" : 1
         }
     },
