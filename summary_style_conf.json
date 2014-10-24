@@ -57,7 +57,7 @@
     }
     ],
     "Filename" : {
-        "Format" : "%b_%d.md"
+        "Format" : "/Users/apple/Documents/Work Summary/%Y%m/%b_%d.md"
     },
     "Configure" : {
         "PluralInteruptSignal" : "EXIT",

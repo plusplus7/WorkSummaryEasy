@@ -31,7 +31,7 @@ def load_summary_style():
     
     fp=0
     try:
-        fp = open("summary_style.conf", "r")
+        fp = open("summary_style_conf.json", "r")
     except:
         return 7404
     
@@ -44,7 +44,7 @@ def load_summary_style():
     if g_summary_style.has_key("Configure") == False or\
        g_summary_style.has_key("Content") == False or\
        g_summary_style.has_key("Filename") == False:
-       show_info("No `Content` or `Configure` or `Filename` found in summary_style.conf\n")
+       show_info("No `Content` or `Configure` or `Filename` found in summary_style_conf.json\n")
        return 7403
 
     return 7200
